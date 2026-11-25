@@ -20,3 +20,4 @@ Open http://127.0.0.1:5000.
 
 ## Scope and limitations
 Checks are user-triggered, not scheduled background monitoring. The app does not send email/SMS alerts and has no user accounts; visitors share the same dashboard and database. SQLite on some free hosting instances may be ephemeral across restarts/redeployments. This is an academic prototype, not a production security scanner. Only check public endpoints you own or are authorized to test. Production improvements include authentication, per-user data separation, request rate limits, URL/IP restrictions, durable storage, scheduled checks and alerting.
+Automatic deployment verification test.
